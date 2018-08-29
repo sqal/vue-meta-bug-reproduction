@@ -1,5 +1,21 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h3>About page</h3>
   </div>
 </template>
+
+<script>
+  export default {
+    name: 'about',
+    metaInfo: {
+      title: 'About',
+      meta: [
+        {
+          vmid: 'og:title',
+          property: 'og:title',
+          content: 'About'
+        }
+      ]
+    }
+  }
+</script>
